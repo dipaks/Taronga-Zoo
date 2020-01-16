@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=160,height=600">
+
+    <style type="text/css">
+        #bannerContainer {
+            display: none
+        }
+    </style>
+
+    <!--load css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script type="text/javascript">
+        // this url is overwritten in dcm
+        var clickTag = "http://www.google.com.au/";
+    </script>
+
+</head>
+
+<body>
+
+    <div id="bannerContainer">
+
+        <!-- banner stuff goes here -->
+
+        <!--
+        Add each image below, but only add the id to the image tag
+        URL's are added via polite loading in the JS
+        -->
+
+        <img id="bg_img" />
+        <img id="bg_leaf2" />
+        <img id="bg_leaf1" />
+        <img id="m_logo" />
+        <img id="t1a" class="text" />
+        <img id="t1b" class="text" />
+        <img id="t1c" class="text" />
+        <img id="t1d" class="text" />
+        <img id="t2a" class="text" />
+        <img id="t2b" class="text" />
+        <img id="t2c" class="text" />
+		
+		<img id="end_bg" />
+        <img id="end_logo" />
+        <img id="end_txt" />
+		<div id="cta">
+			<img id="end_cta" />
+			<img id="end_cta_arrow" />
+		</div>
+        <img id="end_tc" />
+		
+
+        <a href="javascript:window.open(window.clickTag)">
+            <!-- empty div handles clickthroughs and adds 1px border -->
+            <div id="clickthrough"></div>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
